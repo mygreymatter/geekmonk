@@ -58,9 +58,6 @@ canvas {
 }
 
 @media screen and (max-width: 1280px) {
-    body {
-        color: white;
-    }
     .title {
         font-size: 1000%;
     }
@@ -87,9 +84,6 @@ canvas {
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        color: white;
-    }
     .title {
         font-size: 1000%;
     }
@@ -113,9 +107,6 @@ canvas {
 }
 
 @media screen and (max-width: 800px) {
-    body {
-        color: purple;
-    }
     .title {
         font-size: 500%;
     }
@@ -136,9 +127,6 @@ canvas {
 }
 
 @media screen and (max-width: 480px) {
-    body {
-        color: black;
-    }
     .title {
         font-size: 400%;
     }
@@ -157,53 +145,3 @@ canvas {
         font-size: 100%;
     }
 }
-
-
-/*@media only screen and (max-width: 1024px) {
-    .tablets {
-        display: block;
-    }
-    .desktops {
-        display: none;
-    }
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 98%;
-        height: 110px;
-        padding-bottom: 10px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    body {
-        background: white;
-    }
-    .title {
-        font-size: 300%;
-    }
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 98%;
-        height: 100px;
-        padding-bottom: 10px;
-    }
-    /*.footer .h4 {
-        font-size: 15px;
-    }*/
-
-
-/*@media only screen and (max-width: 500px) {
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 98%;
-        height: 110px;
-        padding-bottom: 10px;
-    }
-font-size: 15px;
-
-
-}
-*/
