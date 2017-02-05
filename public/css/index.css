@@ -44,9 +44,10 @@ canvas {
     padding-bottom: 10px;
 }
 
-.footer .h4 {
+
+/*.footer .h4 {
     margin-top: 0;
-}
+}*/
 
 .tablets {
     display: none;
@@ -54,6 +55,35 @@ canvas {
 
 .desktops {
     display: block;
+}
+
+@media screen and (max-width: 1280px) {
+    body {
+        color: white;
+    }
+    .title {
+        font-size: 1000%;
+    }
+    p {
+        font-size: 150%;
+        margin: 5px 0 5px 0;
+    }
+    .tablets {
+        display: none;
+    }
+    .desktops {
+        display: block;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 98%;
+        height: 110px;
+        padding-bottom: 10px;
+    }
+    .footer p {
+        font-size: 120%;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -64,7 +94,14 @@ canvas {
         font-size: 1000%;
     }
     p {
-        font-size: 200%;
+        font-size: 150%;
+        margin: 5px 0 5px 0;
+    }
+    .tablets {
+        display: block;
+    }
+    .desktops {
+        display: none;
     }
     .footer {
         position: absolute;
@@ -72,6 +109,52 @@ canvas {
         width: 98%;
         height: 110px;
         padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        color: purple;
+    }
+    .title {
+        font-size: 500%;
+    }
+    p {
+        font-size: 150%;
+        margin: 5px 0 5px 0;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 98%;
+        height: 130px;
+        padding-bottom: 10px;
+    }
+    .footer p {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        color: black;
+    }
+    .title {
+        font-size: 400%;
+    }
+    p {
+        font-size: 150%;
+        margin: 5px 0 5px 0;
+    }
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 98%;
+        height: 130px;
+        padding-bottom: 10px;
+    }
+    .footer p {
+        font-size: 100%;
     }
 }
 
@@ -111,8 +194,7 @@ canvas {
     }*/
 
 
-}
-@media only screen and (max-width: 500px) {
+/*@media only screen and (max-width: 500px) {
     .footer {
         position: absolute;
         bottom: 0;
@@ -121,5 +203,7 @@ canvas {
         padding-bottom: 10px;
     }
     /*font-size: 15px;*/
+
+
 }
 */
